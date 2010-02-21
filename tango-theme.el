@@ -1,5 +1,17 @@
-;;; Color theme based on Tango Palette. Created by danranx@gmail.com
-;;; http://www.emacswiki.org/cgi-bin/emacs/color-theme-tango.el
+;; Note there are two themes in here.
+;;
+;; color-theme-tango - 
+;;  Color theme based on Tango Palette. Created by danranx@gmail.com
+;;  http://www.emacswiki.org/cgi-bin/emacs/color-theme-tango.el
+;;  Removed italics
+;;
+;; color-theme-tango-light -
+;;  Original theme by matt harrison, for those who prefer a light
+;;  background
+;;
+;; Installation
+;;  Copy this file into your .emacs
+
 (defvar butter1 "#fce94f") (defvar butter2  "#edd400") (defvar butter3 "#c4a000")
 (defvar orange1 "#fcaf3e" ) (defvar orange2 "#f57900") (defvar orange3 "#ce5c00")
 (defvar choc1 "#e9b96e") (defvar choc2 "#c17d11") (defvar choc3  "#8f5902")
