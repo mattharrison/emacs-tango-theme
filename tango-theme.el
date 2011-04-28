@@ -33,7 +33,7 @@
 ;; ie `(color-theme-tango
 ;; list-faces-display will show all font faces
 
-(defun color-theme-tango ()
+(defun tango-theme ()
   "A color theme based on Tango Palette."
   (interactive)
   (color-theme-install
@@ -126,7 +126,7 @@
      )))
 
 
-(defun color-theme-tango-light ()
+(defun tango-theme-light ()
   "A color theme based on Tango Palette."
   (interactive)
   (color-theme-install
@@ -196,5 +196,6 @@
   )
 (if (not (window-system))
     (color-theme-tty-dark))
-(provide 'color-theme-tango)
-(provide 'color-theme-tango-light)
+(provide 'tango-theme)
+;; (provide 'tango-theme-light)
+
