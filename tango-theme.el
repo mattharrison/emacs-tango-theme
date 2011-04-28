@@ -196,5 +196,5 @@
   )
 (if (not (window-system))
     (color-theme-tty-dark))
-(provide 'color-them-tango)
-(provide 'color-them-tango-light)
+(provide 'color-theme-tango)
+(provide 'color-theme-tango-light)
