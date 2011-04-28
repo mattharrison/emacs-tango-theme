@@ -190,6 +190,6 @@
 
 ;; color theme (requires http://www.emacswiki.org/cgi-bin/wiki?ColorTheme )
 (require 'color-theme)
-(provide 'color-theme-tango)
+(provide 'tango-theme)
 ;; (provide 'color-theme-tango-light)
 
