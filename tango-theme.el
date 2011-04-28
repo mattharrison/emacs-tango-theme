@@ -40,8 +40,8 @@
    `(color-theme-tango
      ((background-color . ,alum6)
       (background-mode . dark)
-      (border-color . ,cham1)
-      (cursor-color . ,butter1)
+      (border-color . ,alum4)
+      (cursor-color . ,cham1)
       (foreground-color . ,alum1)
       (mouse-color . ,choc1))
      ((help-highlight-face . underline)
