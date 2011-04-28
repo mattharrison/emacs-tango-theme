@@ -190,12 +190,6 @@
 
 ;; color theme (requires http://www.emacswiki.org/cgi-bin/wiki?ColorTheme )
 (require 'color-theme)
-
-(if (eq window-system 'x)
-    (color-theme-tango)
-  )
-(if (not (window-system))
-    (color-theme-tty-dark))
 (provide 'tango-theme)
 ;; (provide 'tango-theme-light)
 
