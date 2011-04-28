@@ -1,6 +1,6 @@
 ;; Note there are two themes in here.
 ;;
-;; color-theme-tango - 
+;; color-theme-tango -
 ;;  Color theme based on Tango Palette. Created by danranx@gmail.com
 ;;  http://www.emacswiki.org/cgi-bin/emacs/color-theme-tango.el
 ;;  Removed italics
@@ -11,6 +11,11 @@
 ;;
 ;; Installation
 ;;  Copy this file into your .emacs
+
+;; size note: hardcode height ":height 100" is 100% note that doesn't respond to
+;; ctl - +
+;; Float numbers are relative sizes
+
 
 (defvar butter1 "#fce94f") (defvar butter2  "#edd400") (defvar butter3 "#c4a000")
 (defvar orange1 "#fcaf3e" ) (defvar orange2 "#f57900") (defvar orange3 "#ce5c00")
@@ -27,6 +32,7 @@
 ;; (with ,) change the '  to a `
 ;; ie `(color-theme-tango
 ;; list-faces-display will show all font faces
+
 (defun color-theme-tango ()
   "A color theme based on Tango Palette."
   (interactive)
@@ -190,3 +196,5 @@
   )
 (if (not (window-system))
     (color-theme-tty-dark))
+(provide 'color-them-tango)
+(provide 'color-them-tango-light)
