@@ -12,6 +12,11 @@
 ;; Installation
 ;;  Copy this file into your .emacs
 
+;; size note: hardcode height ":height 100" is 100% note that doesn't respond to
+;; ctl - +
+;; Float numbers are relative sizes
+
+
 (defvar butter1 "#fce94f") (defvar butter2  "#edd400") (defvar butter3 "#c4a000")
 (defvar orange1 "#fcaf3e" ) (defvar orange2 "#f57900") (defvar orange3 "#ce5c00")
 (defvar choc1 "#e9b96e") (defvar choc2 "#c17d11") (defvar choc3  "#8f5902")
@@ -27,6 +32,7 @@
 ;; (with ,) change the '  to a `
 ;; ie `(color-theme-tango
 ;; list-faces-display will show all font faces
+
 (defun color-theme-tango ()
   "A color theme based on Tango Palette."
   (interactive)
@@ -185,9 +191,6 @@
 
 ;; color theme (requires http://www.emacswiki.org/cgi-bin/wiki?ColorTheme )
 (require 'color-theme)
+(provide 'tango-theme)
+;; (provide 'color-theme-tango-light)
 
-(if (eq window-system 'x)
-    (color-theme-tango)
-  )
-(if (not (window-system))
-    (color-theme-tty-dark))
