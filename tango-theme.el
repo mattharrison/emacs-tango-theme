@@ -93,7 +93,7 @@
      (ecb-tag-header-face((t (:background ,cham3))))
      (mumamo-background-chunk-submode ((t (:background ,alum5))))
      (bold ((t (:bold t))))
-     (highlight ((t (:foreground ,alum5 :bold t))))
+     (highlight ((t (:foreground ,alum1 :bold t))))
      (hl-line ((t (:background ,alum5 :bold t))))
      (match ((t (:foreground ,cham2 :bold t))))
      (link ((t (:foreground ,cham1))))
