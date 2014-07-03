@@ -28,7 +28,7 @@
 (defvar alum4 "#888a85")  (defvar alum5 "#555753")
 (defvar alum6 "#2e3436")
 ;; since '(color-theme-tango is quoted below we need to unquote the
-;; colors so the actual values get put in.  To be able to unquote
+on;; colors so the actual values get put in.  To be able to unquote
 ;; (with ,) change the '  to a `
 ;; ie `(color-theme-tango
 ;; list-faces-display will show all font faces
@@ -77,7 +77,7 @@
      (isearch ((t (:background ,orange2 :foreground ,alum6))))
      (isearch-lazy-highlight-face ((t (:foreground ,alum6 :background ,choc1))))
      ;; paren.el defines colors!!! (override background)
-     (show-paren-match-face ((t (:background ,alum5 :bold t))))
+     (show-paren-match-face ((t (:background ,butter2 :foreground ,blue2 :bold t))))
      (show-paren-mismatch-face ((t (:foreground ,plum1 :bold t))))
      (minibuffer-prompt ((t (:foreground ,blue1 :bold t))))
      (info-xref ((t (:foreground ,blue1))))
@@ -127,7 +127,16 @@
      (anything-dir-heading ((t (:foreground ,cham2 :background ,alum6))))
      (anything-file-name ((t (:foreground ,blue1))))
      (anything-header ((t (:foreground ,red1 :background ,alum6 :bold t))))
+     ;; helm
+     (helm-M-x-key ((t (:foreground ,butter1))))
+     (helm-source-header ((t (:background ,alum5 :foreground ,alum1 :bold))))
+     (helm-selection ((t (:background ,plum2 :bold t))))
+     (helm-buffer-directory ((t ( :foreground ,butter2))))
+     (helm-ff-directory ((t ( :foreground ,butter2))))
+     (helm-ff-symlink ((t ( :foreground ,blue1))))
+     (helm-ff-file ((t ( :foreground ,alum1))))
      )))
+
 
 
 (defun color-theme-tango-light ()
