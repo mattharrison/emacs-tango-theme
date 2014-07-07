@@ -135,6 +135,9 @@ on;; colors so the actual values get put in.  To be able to unquote
      (helm-ff-directory ((t ( :foreground ,butter2))))
      (helm-ff-symlink ((t ( :foreground ,blue1))))
      (helm-ff-file ((t ( :foreground ,alum1))))
+     ;; ace-jump
+     (ace-jump-face-background ((t ( :foreground ,alum5))))
+     (ace-jump-face-foreground ((t ( :foreground ,cham1))))
      )))
 
 
