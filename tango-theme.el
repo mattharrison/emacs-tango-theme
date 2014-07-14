@@ -206,6 +206,14 @@ on;; colors so the actual values get put in.  To be able to unquote
      ;; (link-visited ((t (:foreground ,plum2))))
      (whitespace-empty ((t (:foreground ,red3 :background ,butter2))))
      (whitespace-line ((t (:background ,alum2))))
+     ;; rst sets background color!!! (override background)
+     (rst-level-1 ((t (:background ,alum1 :foreground ,blue3 :bold t))))
+     (rst-level-2 ((t (:background ,alum1 :foreground ,blue1 :bold t))))
+     (rst-level-3 ((t (:background ,alum1 :foreground ,alum5 :bold t))))
+     (rst-level-4 ((t (:background ,alum1 :foreground ,alum4 :bold t))))
+     (rst-level-5 ((t (:background ,alum1 :foreground ,blue3))))
+     (rst-level-6 ((t (:background ,alum1 :foreground ,blue1))))
+
      )))
 
 ;; color theme (requires http://www.emacswiki.org/cgi-bin/wiki?ColorTheme )
