@@ -138,6 +138,17 @@ on;; colors so the actual values get put in.  To be able to unquote
      ;; ace-jump
      (ace-jump-face-background ((t ( :foreground ,alum5))))
      (ace-jump-face-foreground ((t ( :foreground ,cham1))))
+     ;; ein
+     (ein:cell-heading-1 ((t (:background ,alum6 :foreground ,alum1 :height 1.5))))
+     (ein:cell-heading-2 ((t (:background ,alum6 :foreground ,alum1 :height 1.4))))
+     (ein:cell-heading-3 ((t (:background ,alum6 :foreground ,alum1 :height 1.3))))
+     (ein:cell-heading-4 ((t (:background ,alum6 :foreground ,alum1 :height 1.2))))
+     (ein:cell-heading-5 ((t (:background ,alum6 :foreground ,alum1 :height 1.1))))
+     (ein:cell-heading-6 ((t (:background ,alum6 :foreground ,alum1 :height 1.))))
+     (ein:cell-input-area ((t (:background ,alum5 :foreground ,alum1))))
+     (ein:cell-input-prompt ((t (:foreground ,orange3))))
+     (ein:cell-output-prompt ((t (:foreground ,plum1))))
+     (ein:pos-tip-face ((t (:foreground ,alum6 :background ,alum1))))
      )))
 
 
