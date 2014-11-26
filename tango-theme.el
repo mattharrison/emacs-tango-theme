@@ -28,7 +28,7 @@
 (defvar alum4 "#888a85")  (defvar alum5 "#555753")
 (defvar alum6 "#2e3436")
 ;; since '(color-theme-tango is quoted below we need to unquote the
-on;; colors so the actual values get put in.  To be able to unquote
+;; colors so the actual values get put in.  To be able to unquote
 ;; (with ,) change the '  to a `
 ;; ie `(color-theme-tango
 ;; list-faces-display will show all font faces
